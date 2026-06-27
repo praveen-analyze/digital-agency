@@ -1,36 +1,168 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Design Agency Homepage
 
-## Getting Started
+A modern, responsive **Design Agency Homepage** built with **Next.js 15**, **Tailwind CSS**, and **Framer Motion**. This project showcases a clean and professional landing page with smooth animations, responsive layouts, and reusable components.
 
-First, run the development server:
+## Live Demo
+
+**Vercel:** https://your-vercel-link.vercel.app
+
+## GitHub Repository
+
+**GitHub:** https://github.com/your-username/design-agency
+
+---
+
+## Features
+
+* Modern and responsive design
+* Hero section with background image
+* Services section with animated cards
+* Portfolio section with hover effects
+* Contact section with responsive form
+* Professional footer
+* Smooth animations using Framer Motion
+* Optimized images using Next.js
+* Clean and reusable component structure
+
+---
+
+## Tech Stack
+
+* Next.js 15 (App Router)
+* React.js
+* Tailwind CSS
+* Framer Motion
+* React Icons
+
+---
+
+## Folder Structure
+
+```text
+design-agency
+│
+├── public
+│   └── images
+│
+├── src
+│   ├── app
+│   │   ├── layout.js
+│   │   ├── page.js
+│   │   └── globals.css
+│   │
+│   ├── components
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Services.jsx
+│   │   ├── Portfolio.jsx
+│   │   ├── Contact.jsx
+│   │   └── Footer.jsx
+│   │
+│   └── data
+│
+├── package.json
+└── README.md
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/design-agency.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd design-agency
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Project Sections
 
-To learn more about Next.js, take a look at the following resources:
+### Navbar
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Responsive navigation
+* Sticky navigation bar
+* Mobile-friendly layout
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Hero Section
 
-## Deploy on Vercel
+* Full-screen background image
+* Call-to-action buttons
+* Animated content
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Services
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Four service cards
+* Icons with descriptions
+* Hover animations
+
+### Portfolio
+
+* Responsive project grid
+* Hover overlay effect
+* Project title and description
+
+### Contact
+
+* Contact form
+* Name, Email, and Message fields
+* Responsive design
+
+### Footer
+
+* Company information
+* Quick links
+* Social media icons
+
+---
+
+## Performance Optimizations
+
+* Next.js Image Optimization
+* Component-based architecture
+* Responsive layouts
+* Clean and maintainable code
+* Optimized animations
+
+---
+
+## Future Improvements
+
+* Dark mode
+* Form validation
+* Email integration
+* Testimonials section
+* FAQ section
+* Blog page
+* Scroll-to-top button
+
+---
+
+## Author
+
+**Praveen Kumar**
+
